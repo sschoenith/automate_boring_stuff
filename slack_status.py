@@ -25,7 +25,7 @@ import requests
 
 wifi_path = '/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
 #wifi_path_cmd = '/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk "/ SSID/ {print substr($0, index($0, $2))}"'
-
+#remove token from git
 slack_token = 'xoxp-19620222548-19620222564-611406198307-d7f963d3979e20f29794c0077061dcd0'
 slack_headers = {'Authorization': 'Bearer '+ slack_token, 'Content-Type': 'application/json'}
 
